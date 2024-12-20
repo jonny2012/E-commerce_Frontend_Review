@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  scrollbar-width: none;
+}
+
+.App {
+  margin: 0 auto;
+  position: relative;
+}
+th,
+td {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 20px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  width: 40px;
+  height: 40px;
+  margin-right: 7px;
+}
+
+input {
+  border: none;
+  font-size: 16px;
+  &:focus {
+    outline: none;
+  }
+  &:focus::placeholder {
+    color: transparent;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+h1 {
+  font-size: 36px;
+}

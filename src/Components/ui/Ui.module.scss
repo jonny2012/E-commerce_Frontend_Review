@@ -1,0 +1,18 @@
+@import "../../styles/Variables.scss";
+
+.line_inc {
+  width: 100%;
+  height: 1px;
+  background-color: $BG-primary-black;
+  opacity: 0.4;
+}
+
+.red_button {
+  background-color: $Button-red;
+  padding: 16px 0;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: $Button-red-hover;
+  }
+}

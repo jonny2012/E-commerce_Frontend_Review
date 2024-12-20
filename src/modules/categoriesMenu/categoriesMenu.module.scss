@@ -1,0 +1,25 @@
+@import "./../../styles/Variables.scss";
+
+.categories{
+    width: 220px;
+    padding: 40px 16px 0 0;
+    border-right: 1px solid $Line-Gray;
+    
+
+
+}
+.list{
+    display: flex ;
+    flex-direction: column;
+    list-style-type: none;
+    line-height: 40px;
+
+    .item{
+
+        &:hover{
+
+            background-color: $Button-red;
+            color: $T-white;
+        }
+    }
+}

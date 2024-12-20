@@ -1,0 +1,21 @@
+@import "./../../styles/Variables.scss";
+
+.title_box {
+  max-width: 150px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.red_box {
+  width: 20px;
+  height: 40px;
+  background-color: $Button-red;
+  border-radius: 5px;
+}
+
+.title {
+  color: $Button-red;
+  font-weight: 600;
+}

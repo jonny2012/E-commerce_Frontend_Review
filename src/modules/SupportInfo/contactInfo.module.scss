@@ -1,0 +1,22 @@
+
+.info_box{
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 35px;
+    gap: 32px;
+    box-shadow: -1px 2px 15px 5px rgba(0,0,0,0.44);
+    .call_info_box{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        gap:18px;
+
+        .icon_header{
+
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+}
