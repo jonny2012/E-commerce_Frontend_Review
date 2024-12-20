@@ -1,0 +1,51 @@
+@import "./../../styles/Variables.scss";
+
+.sign_up {
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    .user_data_input {
+      height: 50px;
+      border: none;
+      border-bottom: 1px solid $T-gray;
+      font-size: 18px;
+      color: $T-black;
+    }
+
+    &::placeholder {
+      color: $T-gray;
+    }
+  }
+}
+.error_message{
+  color: $Button-red;
+}
+
+.red_button {
+  background-color: $Button-red;
+  padding: 16px 0;
+  border-radius: 5px;
+  color: $T-white;
+
+  &:hover {
+    background-color: $Button-red-hover;
+  }
+}
+
+.submit_box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.question_box {
+  display: flex;
+  gap: 20px;
+}

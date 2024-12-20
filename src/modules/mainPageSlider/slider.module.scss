@@ -1,0 +1,41 @@
+@import "./../../styles/Variables.scss";
+
+.slider{
+    background-color: $BG-primary-black;
+    margin-top: 40px;
+    margin-left: 48px;
+    color: $T-white;
+    max-width: 890px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+    gap: 30px;
+
+    &_text{
+        display: flex;
+        flex-direction: column;
+        margin-top: 58px;
+        margin-left: 64px;
+        gap: 24px;
+
+        &_header{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+    }
+}
+
+.iphone_img{
+    align-self: center;
+    max-width: 500px;
+    
+}
+
+.shop_link{
+    color: $T-white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

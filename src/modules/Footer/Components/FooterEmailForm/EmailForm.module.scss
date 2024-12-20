@@ -1,0 +1,32 @@
+@import "./../../../../styles/Variables.scss";
+
+.email_form{
+    width: 180px;
+    padding: 12px 0 12px 10px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    border:  2px solid #FAFAFA;
+  
+    .input{
+      width: 130px;
+      font-size: 16px;
+      border:none;
+      color: $T-white;
+      background-color: $BG-primary-black;
+  
+      &::placeholder{
+        color: $T-white 0.4;
+      }
+      &:focus{
+        outline: none;
+      }
+    }
+  
+    .button_send{
+      padding: 5px 5px;
+      border-left: none;
+    background-color: $BG-primary-black;
+    border: none;
+    }
+}  

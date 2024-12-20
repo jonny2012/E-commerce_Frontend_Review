@@ -1,0 +1,68 @@
+@import "./../../styles/Variables.scss";
+
+.footer {
+  width: 98vw;
+  padding: 60px 0;
+  background-color: $BG-primary-black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    width: 1170px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    align-content: start;
+
+    .content {
+      max-width: 180px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      color: $T-white;
+    }
+
+    .white_link {
+      color: $T-white;
+
+      &:hover {
+        text-decoration: underline;
+        color: $Button-red-hover;
+      }
+    }
+
+    .store_box {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      margin-left: -30px;
+
+      .stores {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    }
+    .social_links {
+      display: flex;
+      gap: 24px;
+    }
+  }
+}
+.svg {
+  stroke: white;
+
+  &:hover {
+    stroke: $Button-red-hover;
+  }
+}
+.svg_t * {
+  fill: white;
+
+  &:hover {
+    fill: $Button-red-hover;
+  }
+}

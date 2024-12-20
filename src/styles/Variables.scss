@@ -1,0 +1,26 @@
+$BG-primary-white: #fff;
+$BG-primary-black:#000;
+$T-white:#fff;
+$T-gray: #7D8184;
+$T-black:#000;
+$Second:#F5F5F5;
+$Line-Gray: #D9D9D9;
+$Button-green: #47B486;
+$Button-red: #DB4444;
+$Button-red-hover:#E07575;
+$Button-blue-hover: #A0BCE0;
+
+
+
+input {
+    &:focus{
+        outline: none;
+    }
+    &:focus::placeholder{
+        color: transparent;
+    }
+}
+
+
+
+
